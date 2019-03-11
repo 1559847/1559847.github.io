@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:orange;
+}
+.container{
+	background-color:#34B4BD;
+	width:100%;
+}
+.wrapper{
+	background-color:red;
+	margin:auto;
+}
+ul{
+	
+}
+ul li{
+	background-color:#5CE88F;
+	width:270px;
+	display:inline-block;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+}
+ul li a{
+	text-decoration:none;
+	color:#000;
+	display:block;
+}
+ul li a:hover{
+	background-color:orange;
+	color:#000;
+}
+.active{
+	background-color:orange;
+	color:#000;
+}
+.gallery{
+}
+img{
+	transition:1s;
+	width:250px;
+	height:200px;
+}
+img:hover{
+	filter:grayscale(100%);
+	transform:scale(1.1);
+}
